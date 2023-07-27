@@ -1,0 +1,67 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    overflow: auto;
+}
+#main {
+    width: 100%;
+    height: 100vh;
+    position: relative;
+    background-color: black;
+
+}
+img {
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    object-fit: contain;
+}
+.title {
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    position: absolute;
+}
+.subheader {
+    display: flex;
+    justify-content: center;
+}
+a {
+    text-decoration: none;
+    display: flex;
+    color: blue;
+    justify-content: center;
+}
+#secondary {
+    position: relative; 
+    
+}
+.skills {
+    display: flex;
+    justify-content: center;
+}
+nav {
+    text-decoration: none;
+    color: blue;
+    background-color: white;
+    box-sizing: border-box;
+    font-family: montserrat; 
+    position: relative;
+    height: 55px;
+    font-size: 25px;
+    margin: 0px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+li {
+    list-style: none;
+    float: right;
+    padding: 20px;
+    
+}
+.logo {
+    font-size: 35px;
+    display: flex;
+    align-items: center;
+}
