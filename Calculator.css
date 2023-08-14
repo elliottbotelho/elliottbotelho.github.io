@@ -1,0 +1,28 @@
+.main {
+    background-color: red;
+    height: 500px;
+
+}
+.results {
+    border: solid 1px black;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.contents {
+   text-align: center;
+}
+button {
+    margin: 10px;
+    height: 50px;
+    width: 50px;
+    
+}
+body {
+    background-color: black;
+}
+button:hover {
+    color: red;
+    background-color: black;
+}
