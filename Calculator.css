@@ -1,14 +1,15 @@
 .main {
     background-color: red;
-    height: 500px;
+    height: 550px;
 
 }
 .results {
-    border: solid 1px black;
+    border: solid 3px black;
     background-color: white;
     display: flex;
     align-items: center;
     justify-content: center;
+    height: 100px;
 }
 .contents {
    text-align: center;
@@ -24,5 +25,7 @@ body {
 }
 button:hover {
     color: red;
-    background-color: black;
+}
+#clause {
+    width: 100px;
 }

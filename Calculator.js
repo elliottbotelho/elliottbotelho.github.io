@@ -32,7 +32,19 @@ function operate(Num1, Num2, Operator) {
 }
 
 
-divide(5, 5);
-add(1, 0);
-subtract(3, 2);
-multiply(1, 1);
+
+
+const Display = document.queryselector('.results')
+
+let array = []
+
+
+
+function Screen(nums) {
+
+    array.push(nums)
+
+
+    Display.textcontent = array.join('')
+    
+}
